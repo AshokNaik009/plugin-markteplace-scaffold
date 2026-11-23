@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "plugin-marketplace-demo",
+  "description": "Demo Claude Code plugin marketplace",
+  "owner": {
+    "name": "Ashok Naik",
+    "email": "naikashok08@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "starter",
+      "description": "Starter plugin with a sample command and skill; use it as a template for new marketplace plugins.",
+      "version": "0.1.0",
+      "source": "./plugins/starter",
+      "category": "development"
+    }
+  ]
+}

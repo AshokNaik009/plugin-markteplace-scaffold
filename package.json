@@ -1,0 +1,27 @@
+{
+  "name": "plugin-marketplace-demo",
+  "version": "0.1.0",
+  "description": "Demo Claude Code plugin marketplace. Run `plugin-marketplace-demo init` to install it into ~/.claude/plugins.",
+  "license": "MIT",
+  "author": "Ashok Naik <naikashok08@gmail.com>",
+  "type": "module",
+  "bin": {
+    "plugin-marketplace-demo": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "marketplace"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "marketplace",
+    "demo"
+  ]
+}
